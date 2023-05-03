@@ -8,12 +8,12 @@ import {
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
 type Props = {
-  tareas: Tarea[];
+  tarea: Tarea[];
   onDelete: (tarea: Tarea) => void;
   onEdit: (tarea: any) => void;
 };
 
-const ListaTarea = ({ tareas, onDelete, onEdit }: Props) => {
+const ListaTarea = ({ tarea: tareas, onDelete, onEdit }: Props) => {
   return (
     <>
       <h3 className="mb-3">Mi lista de tareas</h3>

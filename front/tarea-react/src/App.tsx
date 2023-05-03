@@ -43,7 +43,7 @@ function App() {
         <Row>
           <Col md={6}>
             <ListaTarea
-              tareas={tareas}
+              tarea={tareas}
               onDelete={eliminarTarea}
               onEdit={(tarea) => setTarea(tarea)}
             />
